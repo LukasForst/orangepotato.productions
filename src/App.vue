@@ -25,10 +25,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
-@font-face {
-  font-family: "Phorssa";
-  src: local("Phorssa"),
-  url(./fonts/Phorssa.ttf) format("truetype");
-}
 </style>
