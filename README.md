@@ -1,4 +1,4 @@
-# fousy
+# Orange Potato Production Site
 
 ## Project setup
 ```
