@@ -1,6 +1,7 @@
 <template>
-  <div id="top-level-container">
+  <div class="top-level-container">
     <img alt="Orange Potato Productions Logo" src="../assets/logo_light.png">
+    <div class="text">info@orangepotato.productions</div>
   </div>
 </template>
 
@@ -13,14 +14,16 @@ export default {
 </script>
 
 <style scoped>
-
-#top-level-container {
+.top-level-container {
   display: flex;
   flex-flow: column;
-  align-items: center;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  align-content: center;
+  padding: 10%;
 }
+.text {
+  padding-top: 20px;
+  font-size: 1.3rem;
 
+}
 </style>
